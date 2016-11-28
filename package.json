@@ -1,0 +1,20 @@
+{
+  "name": "authentication_test",
+  "version": "1.0.0",
+  "description": "Use passport to protect API end-points from users who aren't logged in",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nick Coleman",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^0.8.7",
+    "bcryptjs": "^2.3.0",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongoose": "^4.7.0",
+    "passport": "^0.3.2",
+    "passport-http": "^0.3.0"
+  }
+}
